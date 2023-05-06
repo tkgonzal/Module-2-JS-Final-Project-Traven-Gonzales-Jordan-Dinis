@@ -7,8 +7,8 @@ Must have node and npm installed on machine to use locally. In the directory the
 2. npm build
 
 # Assets Used
-* (Forward Step Icon)[https://fontawesome.com/icons/forward-step?f=classic&s=solid]: From FontAwesome, used for the next button.
-* (Forward Fast)[https://fontawesome.com/icons/forward-fast?f=classic&s=solid]: From FontAwesome, used for the last button.
-* (Backward Step)[https://fontawesome.com/icons/backward-step?f=classic&s=solid]: From FontAwesome, used for the previous button.
-* (Backward Fast)[https://fontawesome.com/icons/backward-fast?f=classic&s=solid]: From FontAwesome, used for the first button.
+* [Forward Step Icon](https://fontawesome.com/icons/forward-step?f=classic&s=solid): From FontAwesome, used for the next button.
+* [Forward Fast](https://fontawesome.com/icons/forward-fast?f=classic&s=solid): From FontAwesome, used for the last button.
+* [Backward Step](https://fontawesome.com/icons/backward-step?f=classic&s=solid): From FontAwesome, used for the previous button.
+* [Backward Fast](https://fontawesome.com/icons/backward-fast?f=classic&s=solid): From FontAwesome, used for the first button.
 
