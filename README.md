@@ -4,9 +4,15 @@ An app used to calculate possible encounters for the user to be used in PF2e. Cr
 ## Usage Instructions
 Must have node and npm installed on machine to use locally. In the directory the project is in, run the following commands:
 1. npm install
-2. npm build
+2. npm run build
+After, you must create and run your own server for the webpage to have it run locally.
 
 ## Assets Used
+Most assets including the logo image, creature icons, and favicons made for project in a combination of Procreate and Clip Studio Paint.
+
+Assets used from outside sources include:
+* [Bebas Nueue](https://fonts.google.com/specimen/Bebas+Neue): From Google Fonts, used
+for headers in project.
 * [Forward Step Icon](https://fontawesome.com/icons/forward-step?f=classic&s=solid): From FontAwesome, used for the next button.
 * [Forward Fast](https://fontawesome.com/icons/forward-fast?f=classic&s=solid): From FontAwesome, used for the last button.
 * [Backward Step](https://fontawesome.com/icons/backward-step?f=classic&s=solid): From FontAwesome, used for the previous button.
