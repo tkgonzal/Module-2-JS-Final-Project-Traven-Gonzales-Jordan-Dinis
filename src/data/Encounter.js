@@ -5,6 +5,13 @@ import Creature from "./Creature.js"
 // quantity within the encounter.
 
 class Encounter {
+    /**
+     * Generates an encounter given an array of array pairs of Creatures and 
+     * associated quantities or another Encounter object
+     * @param {[[Creature, Number]], Encounter} encounter Can either be an array of 
+     * two element arrays with a Creature object as the first element and an int
+     * as the second, or another Encounter object
+     */
     constructor(encounter) {
         if (encounter instanceof Encounter) {
             this.creatures = new Map();

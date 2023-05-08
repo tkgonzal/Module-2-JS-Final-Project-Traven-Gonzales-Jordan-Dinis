@@ -1,3 +1,4 @@
+// EncounterPage.jsx
 import React from "react"
 import Creature from "./Creature.jsx"
 import { nanoid } from "nanoid"

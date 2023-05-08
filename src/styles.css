@@ -107,6 +107,11 @@ hr {
     color: var(--link-hover-txt-color, gray);
 }
 
+.info--key-term {
+    font-weight: 600;
+    font-style: italic;
+}
+
 .calc-form input {
     width: 2.5rem;
     font-size: 1.1rem;

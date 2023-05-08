@@ -1,3 +1,4 @@
+// InfoBar.jsx
 import React from "react"
 
 // Info Bar for the App, explaining what it does and referring the user

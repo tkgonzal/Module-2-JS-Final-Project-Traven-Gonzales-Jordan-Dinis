@@ -36,7 +36,7 @@ function Creature(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    View Creature
+                    View Creatures
                 </a>
             </span>
         </section>

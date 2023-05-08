@@ -1,3 +1,4 @@
+// App.jsx
 import React from 'react'
 import Header from './components/Header.jsx'
 import InfoBar from './components/InfoBar.jsx'
