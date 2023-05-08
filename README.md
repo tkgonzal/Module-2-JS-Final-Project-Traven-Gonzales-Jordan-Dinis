@@ -7,6 +7,7 @@ A Netlify deployment of the app can be viewed [here](https://boisterous-rabanada
 To run locally, must have node and npm installed on machine. In the directory the project is in, run the following commands:
 1. npm install
 2. npm run build
+
 After, you must create and run your own server for the webpage to have it run locally. If vite is installed on machine, the app can be used on a dev server using:
 1. npm run dev
 
