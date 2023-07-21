@@ -1,7 +1,10 @@
 // EncounterPage.jsx
 import React from "react"
-import Creature from "./Creature.jsx"
 import { nanoid } from "nanoid"
+
+import Creature from "./Creature.jsx"
+import EncounterPageNavButton from "./EncounterPageNavButton.jsx"
+
 import backImg from "../assets/backward-step.svg"
 import firstImg from "../assets/backward-fast.svg"
 import nextImg from "../assets/forward-step.svg"
@@ -10,7 +13,6 @@ import lastImg from "../assets/forward-fast.svg"
 // The portion of the app that displays each encounter calculated, one
 // at a time. Uses the encounterDisplay state to determine which
 // encounter to display at a time.
-
 function EncounterPage(props) {
     const notEmpty = props.encounterDisplay.numPages > 0
     let creatures = []
@@ -47,25 +49,18 @@ function EncounterPage(props) {
                 {notEmpty && creatures}
             </div>
             <nav className="encounter-page--nav">
-                <button
+                <EncounterPageNavButton
                     className="encounter-page--first"
                     onClick={props.firstPage}
-                >
-                    <img
-                        src={firstImg}
-                        alt="First"
-                    />
-                </button>
-
-                <button
+                    imgSrc={firstImg}
+                    imgAlt="First"
+                />
+                <EncounterPageNavButton
                     className="encounter-page--prev"
                     onClick={props.prevPage}
-                >
-                    <img
-                        src={backImg}
-                        alt="Back"
-                    />
-                </button>
+                    imgSrc={backImg}
+                    imgAlt="Back"
+                />
 
                 <span>
                     {
@@ -74,24 +69,18 @@ function EncounterPage(props) {
                     {props.encounterDisplay.numPages}
                 </span>
 
-                <button
+                <EncounterPageNavButton
                     className="encounter-page--next"
                     onClick={props.nextPage}
-                >
-                    <img
-                        src={nextImg}
-                        alt="Next"
-                    />
-                </button>
-                <button
+                    imgSrc={nextImg}
+                    imgAlt="Next"
+                />
+                <EncounterPageNavButton
                     className="encounter-page--last"
                     onClick={props.lastPage}
-                >
-                    <img
-                        src={lastImg}
-                        alt="Last"
-                    />
-                </button>
+                    imgSrc={lastImg}
+                    imgAlt="Last"
+                />
             </nav>
         </section>
     )
