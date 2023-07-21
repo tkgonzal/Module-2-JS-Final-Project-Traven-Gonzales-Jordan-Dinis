@@ -5,7 +5,6 @@ import highThreatIcon from "../assets/high-threat.png"
 
 // The component that displays the individual creature information
 // for each encounter
-
 function Creature(props) {
     let creatureIcon;
     const creatureMod = props.creature.level - props.partyLevel

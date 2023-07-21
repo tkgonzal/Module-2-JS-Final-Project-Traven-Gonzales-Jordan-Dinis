@@ -3,7 +3,6 @@ import React from "react"
 
 // Info Bar for the App, explaining what it does and referring the user
 // to the full rules of Encounter Building for PF2e
-
 function InfoBar() {
     return (
         <section className="info">

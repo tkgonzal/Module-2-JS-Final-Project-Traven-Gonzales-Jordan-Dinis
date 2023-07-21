@@ -1,6 +1,22 @@
 // useEncounterDisplay.jsx
 import React from "react"
 
+/**
+ * Hook to manage the current contents of display for the EncounterPage
+ * @returns {Object} An object consisting of
+ * -encounterDisplay: The main object defining what information to show the
+ *  user on the EncounterPage
+ * -setEncounterDisplay: The setter function to set the contents of the
+ *  encounterDisplay
+ * -nextPage: A function to increment the page variable of the 
+ *  encounterDisplay
+ * -prevPage: A function to decrement the page attribute of the 
+ *  encounterDisplay
+ * -firstPage: A function to set the page attribute of the encounterDisplay
+ *  to zero
+ * -lastPage: A function to set the page attribute of the encounterDisplay
+ *  to its last Encounter
+ */
 function useEncounterDisplay() {
     const [encounterDisplay, setEncounterDisplay] = React.useState(() => ({
         encounters: [],

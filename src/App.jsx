@@ -11,6 +11,7 @@ import EncounterPage from "./components/EncounterPage.jsx"
 
 import "./styles.css"
 
+// The Encounter Calculator App
 function App() {
   // State Variables and Functions
   const {
@@ -29,10 +30,10 @@ function App() {
   } = useEncounterDisplay()
 
   /**
-     * Uses the EncounterCalculator's calculate method to compute 
-     * all possible Encounters given the current calcInput state
-     * @param {Event} event the event object for a form submit
-     */
+    * Uses the EncounterCalculator's calculate method to compute 
+    * all possible Encounters given the current calcInput state
+    * @param {Event} event the event object for a form submit
+    */
   function calculate(event) {
     event.preventDefault()
     const calculatedEncounters = encounterCalculator.calculate(

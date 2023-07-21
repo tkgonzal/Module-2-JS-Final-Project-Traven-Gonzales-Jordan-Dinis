@@ -3,7 +3,6 @@ import React from "react"
 
 // The Form element that takes the user's input for the Encounter
 // Calculator
-
 function CalculatorForm(props) {
     return (
         <form className="calc-form" onSubmit={props.calculate}>

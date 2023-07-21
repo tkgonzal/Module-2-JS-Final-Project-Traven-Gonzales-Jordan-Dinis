@@ -6,6 +6,16 @@ import EncounterCalculator from "../data/EncounterCalculator"
 // Constants
 const encounterCalculator = new EncounterCalculator()
 
+/**
+ * Hook to manage inputs of calculator form
+ * @returns {Object} An object consisting of:
+ * -calcInput: The object used to control the inputs of the CalculatorForm
+ * -onInputChange: The main event handler for updating the calcInput when
+ *  an input is changed
+ * -preventKeypress: An event handler to prevent the user from using 
+ *  keypresses on certain inputs in order to prevent invalid inputs
+ *  from being set
+ */
 function useCalcInput() {
     const [calcInput, setCalcInput] = React.useState(() => ({
         partyLevel: 1,
