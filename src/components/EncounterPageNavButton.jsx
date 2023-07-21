@@ -1,3 +1,4 @@
+// EncounterPageNavButton.jsx
 /**
  * @param {Object} props An object consisting of a classname
  * for the button, an onClick for the button, a srcImg for
