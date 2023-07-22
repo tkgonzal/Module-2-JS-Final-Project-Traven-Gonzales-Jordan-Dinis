@@ -1,6 +1,8 @@
 // InfoBar.jsx
 import React from "react"
 
+import "./InfoBar.css"
+
 // Info Bar for the App, explaining what it does and referring the user
 // to the full rules of Encounter Building for PF2e
 function InfoBar() {

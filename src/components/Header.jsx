@@ -1,6 +1,8 @@
 // Header.jsx
 import React from "react"
 
+import "./Header.css"
+
 import logoImg from "../assets/favicon.png"
 
 // Header for the App, displaying its title

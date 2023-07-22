@@ -1,6 +1,8 @@
 // Creature.jsx
 import React from "react"
 
+import "./Creature.css"
+
 import lowThreatIcon from "../assets/low-threat.png"
 import midThreatIcon from "../assets/mid-threat.png"
 import highThreatIcon from "../assets/high-threat.png"

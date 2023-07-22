@@ -5,6 +5,8 @@ import { nanoid } from "nanoid"
 import Creature from "./Creature.jsx"
 import EncounterPageNavButton from "./EncounterPageNavButton.jsx"
 
+import "./EncounterPage.css"
+
 import backImg from "../assets/backward-step.svg"
 import firstImg from "../assets/backward-fast.svg"
 import nextImg from "../assets/forward-step.svg"

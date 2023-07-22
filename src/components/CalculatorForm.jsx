@@ -1,6 +1,8 @@
 // CalculatorForm.jsx
 import React from "react"
 
+import "./CalculatorForm.css"
+
 // The Form element that takes the user's input for the Encounter
 // Calculator
 function CalculatorForm(props) {
