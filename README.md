@@ -8,7 +8,7 @@ To run locally, must have node and npm installed on machine. In the directory th
 1. npm install
 2. npm run build
 
-After, you must create and run your own server for the webpage to have it run locally. If vite is installed on machine, the app can be used on a dev server using:
+After, you must create and run your own server for the webpage to have it run locally. If vite is installed on machine, the app can be instead run on a dev server using:
 1. npm run dev
 
 ## Assets Used
